@@ -25,6 +25,7 @@
         <ImageButton
             android:id="@+id/play_button"
             style="@android:style/MediaButton.Play"
+            android:visibility="invisible" 
             android:contentDescription="@string/exo_controls_play_description"/>
 
         <ImageButton
@@ -62,6 +63,7 @@
             android:layout_height="32dip"
             android:minHeight="5dp"
             android:maxHeight="5dp"
+            android:visibility="invisible" 
             android:layout_weight="1"/>
 
         <TextView
