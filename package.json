@@ -1,10 +1,11 @@
 {
-  "name": "@expo-custom/expo-av-custom-video",
-  "version": "1.5.0",
-  "private": true,
+  "name": "@duranmoodley/expo-av-custom-video",
+  "version": "1.8.0",
+  "private": false,
   "author": "Expo",
   "license": "MIT",
   "scripts": {
+    
     "setup:docs": "./scripts/download-dependencies.sh",
     "setup:native": "./scripts/download-dependencies.sh && ./scripts/setup-react-android.sh",
     "postinstall": "yarn-deduplicate && yarn workspace @expo/cli prepare && node ./tools/bin/expotools.js validate-workspace-dependencies && ([ ! -f node_modules/react-native-reanimated/android/src/reactNativeVersionPatch/ReanimatedUIManager/latest/com/swmansion/reanimated/layoutReanimation/ReanimatedUIManager.java.orig ] && patch -d node_modules -p2 -f --backup < patches/react-native-reanimated+3.6.0.patch || true)",
