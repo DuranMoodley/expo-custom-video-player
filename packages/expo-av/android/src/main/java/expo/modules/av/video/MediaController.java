@@ -514,13 +514,13 @@ public class MediaController extends FrameLayout {
       mPauseButton.setEnabled(enabled);
     }
     if (mFastForwardButton != null) {
-      mFastForwardButton.setEnabled(enabled);
+      mFastForwardButton.setVisibility(View.GONE);
     }
     if (mRewindButton != null) {
       mRewindButton.setEnabled(enabled);
     }
     if (mNextButton != null) {
-      mNextButton.setEnabled(enabled && mNextListener != null);
+      mNextButton.setVisibility(View.GONE);
     }
     if (mPrevButton != null) {
       mPrevButton.setEnabled(enabled && mPrevListener != null);
@@ -565,10 +565,10 @@ public class MediaController extends FrameLayout {
         return;
       }
 
-      int pos = mPlayer.getCurrentPosition();
-      pos += 15000; // milliseconds
-      mPlayer.seekTo(pos);
-      setProgress();
+      // int pos = mPlayer.getCurrentPosition();
+      // pos += 15000; // milliseconds
+      // mPlayer.seekTo(pos);
+      // setProgress();
 
       show(sDefaultTimeout);
     }
@@ -595,7 +595,7 @@ public class MediaController extends FrameLayout {
       installPrevNextListeners();
 
       if (mNextButton != null && !mFromXml) {
-        mNextButton.setVisibility(View.VISIBLE);
+        mNextButton.setVisibility(View.GONE);
       }
       if (mPrevButton != null && !mFromXml) {
         mPrevButton.setVisibility(View.VISIBLE);

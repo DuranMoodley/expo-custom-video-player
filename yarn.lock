@@ -9940,6 +9940,11 @@ expo-atlas@^0.1.0:
     serve-static "^1.15.0"
     stream-json "^1.8.0"
 
+expo-av@~14.0.0:
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/expo-av/-/expo-av-14.0.2.tgz#b09cf7fce4b094c85f037774c20819d3de8711a1"
+  integrity sha512-EShRKA2lSxinSJa0U/zDj6hHOF4/Twqa+HKjbK2cvfoqf1LOpoFH4XyvxWUe2P4baU/WekOOx5X2spdC+29sqg==
+
 expo-progress@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/expo-progress/-/expo-progress-0.0.2.tgz#0d42470f8f1f019d3ae0f1da377c9bca891f3dd8"

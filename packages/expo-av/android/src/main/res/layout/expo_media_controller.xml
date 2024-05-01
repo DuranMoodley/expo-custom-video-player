@@ -25,17 +25,18 @@
         <ImageButton
             android:id="@+id/play_button"
             style="@android:style/MediaButton.Play"
-            android:visibility="invisible" 
             android:contentDescription="@string/exo_controls_play_description"/>
 
         <ImageButton
             android:id="@+id/fast_forward_button"
             style="@android:style/MediaButton.Ffwd"
+            android:visibility="invisible" 
             android:contentDescription="@string/exo_controls_fastforward_description"/>
 
         <ImageButton
             android:id="@+id/skip_next_button"
             style="@android:style/MediaButton.Next"
+            android:visibility="invisible" 
             android:contentDescription="@string/exo_controls_next_description"/>
     </LinearLayout>
 

@@ -1,6 +1,7 @@
 {
-  "name": "expo-av",
-  "version": "14.0.2",
+  "name": "@duranmoodley/expo-av-video-custom",
+  "version": "1.4.0",
+  "private": false,
   "description": "Expo universal module for Audio and Video playback",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -20,17 +21,9 @@
     "audio",
     "video"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/expo/expo.git",
-    "directory": "packages/expo-av"
-  },
   "bugs": {
     "url": "https://github.com/expo/expo/issues"
   },
-  "author": "650 Industries, Inc.",
-  "license": "MIT",
-  "homepage": "https://docs.expo.dev/versions/latest/sdk/av/",
   "devDependencies": {
     "expo-module-scripts": "^3.0.0"
   },
